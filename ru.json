@@ -1,0 +1,498 @@
+{
+  "embed": {
+    "footer": "Запрос от {user}"
+  },
+  "errors": {
+    "api_error": "Произошла ошибка в API! Попробуйте позже.",
+    "guild_only": "Эта команда может быть использована только в [my Discord]({link})!",
+    "missing_perms": {
+      "self": "Вам требуется право на `{permission}` для этого.",
+      "self_channel": "Мне необходимо право на `{permission}` в канале {channel}, чтобы сделать это!",
+      "other": "Вам требуется право на `{permission}` для этого."
+    },
+    "nsfw_random": [
+      "Похоже, этот канал не помечен, как NSFW, не так ли, {user}?",
+      "Пожалуйста, будьте пошлыми только в NSFW канале, {user}.",
+      "Ненене! Вы слишком прекрасны, чтобы делать это за рамками NSFW каналов, {user}!",
+      "ChannelNotNSFWException: Невозможно использовать в не NSFW каналах.",
+      "Такие пошлые штучки можно увидеть только в NSFW каналах, {user}.",
+      "Каждому своё место. Этой команде место в NSFW канале, {user}."
+    ],
+    "title": "Ошибка",
+    "unknown": "П-простите, это немного глупо, но у меня произошла ошибка во время этого. {VANILLABLUSH}\nСообщите об этом в Discord или на GitHub!"
+  },
+  "misc": {
+    "and": "и",
+    "info": "Хэй {user}!\nМой префикс на этом сервере `{prefix}`\nИспользуйте `{prefix}help` для списка всех комманд.",
+    "unknown_user": "Неизвестный",
+    "welcome_member": "Вы участник под номером #{count}"
+  },
+  "purr": {
+    "fun": {
+      "cuddle": {
+        "loading": "{LOADING} Получаю обнмашечный gif...",
+        "mention_self": "Почему ты обнимаешь себя, {user}?\nТы можешь обнять меня, если хочешь. {VANILLABLUSH}",
+        "mention_purr": "\\*наслаждается обнимашками с {user}*",
+        "message": "{user} обнимается с {targets}",
+        "no_mention": "Вы забыли упомянуть пользователя для обнимашек!"
+      },
+      "holo": {
+        "loading": "{LOADING} Скачиваю картинку от Holo...",
+        "title": "Holo {BLOBHOLO}"
+      },
+      "hug": {
+        "loading": "{LOADING} Наполняюсь гифкой с объятиями...",
+        "mention_self": "Почему ты хочешь обнять себя, {user}?\nЛучше обними меня, если хочешь. {VANILLABLUSH}",
+        "mention_purr": "\\*насслаждается объятиями от {user}*",
+        "message": "{user} обнял {targets}",
+        "no_mention": "Для объятий требуется хотя бы одно упоминание участника!"
+      },
+      "kiss": {
+        "loading": "{LOADING} Отправляем поцелуйчики...",
+        "mention_self": "Как ты пытаешься себя поцеловать, {user}? Через зеркало?",
+        "mention_purr": "О-окей. Но только щечку! \\*Подставляет щечку*",
+        "mention_snuggle": "НЕТ! Я не позволю тебе целовать мою сестру с моей же помощью!",
+        "message": "{user} целует {targets}",
+        "no_mention": "Упомяните хоть кого-нибудь для поцелуя!",
+        "special_user": "\\*Наслаждается поцелуем от {user}*"
+      },
+      "kitsune": {
+        "loading": "{LOADING} Заполучаем гифку с кицсуне...",
+        "title": "Кицуне {SHIROTAILWAG}"
+      },
+      "lick": {
+        "loading": "{LOADING} Облизываем гифки...",
+        "mention_self": "Божечки, я не хочу знать, *куда* ты пытаешься лизнуть себя, {user}...",
+        "mention_purr": "\\*пятится назад* Я-я не разрешала тебе облизывать меня!",
+        "message": "{user} облизывает {targets}",
+        "no_mention": "Пожалуйста упомяните, хотя бы одного участника для лизь!",
+        "special_user": "Н-но дорогуша... Только не здесь. \\*краснеет*"
+      },
+      "neko": {
+        "loading": "{LOADING} Заполучаем няшный неко в картиках и гифках...",
+        "title_gif": "Неко {WAGTAIL}",
+        "title_img": "Неко {NEKOWO}",
+        "purr": "Хэй! Это же я! OwO",
+        "snuggle": "Моя сестренка! UwU"
+      },
+      "pat": {
+        "loading": "{LOADING} Гладим по головке...",
+        "mention_self": "Кхем... Разве нету здесь не одной неко, которую можно погладить, {user}? \\*показывает на себя*",
+        "mention_purr": "\\*мррр™*",
+        "message": "{user} гладит {targets}",
+        "no_mention": "Упомяните хоть кого-то, чтобы погладить!"
+      },
+      "poke": {
+        "loading": "{LOADING} Тыкаем гифку...",
+        "mention_self": "Тебе скучно? Для чего ты тыкаешь себя, {user}?",
+        "mention_purr": "Н-няяя! Не тыкай меня! >~<",
+        "message": "{user} тыкает {targets}",
+        "no_mention": "Чтобы тыкнуть назови имя участника!"
+      },
+      "senko": {
+        "loading": "{LOADING} Заполучаем изображение Сенко-сан...",
+        "title": "Сенко-сан {SENKOTAILWAG}"
+      },
+      "ship": {
+        "mention_self": "Шипперишь себя, {user}? Найди себе кого-нибудь другого!",
+        "mention_purr": "Не-а! Меня нельзя шипперить, {user}!",
+        "mention_snuggle": "Не позволю шипперить мою сестренку, {user}!",
+        "no_mention": "Назовите кого-нибудь для шипперинга!",
+        "results": {
+          "100": "Идеальная любовь! \u2764",
+          "91_99": "Пригласите меня на вашу свадьбу. ^-^",
+          "81_90": "Представляю, как вы женитесь.",
+          "71_80": "\\*сдвигаю вас друг к другу*",
+          "61_70": "Похоже на что-то серьезное.",
+          "51_60": "Целуй уже!!!",
+          "41_50": "Уже пара?",
+          "31_40": "У вас есть шансы, чтобы стать парой.",
+          "21_30": "Френдзона+ (Теперь с *плюсиками*)",
+          "11_20": "Френдзона",
+          "1_10": "Похоже даже не друзья...",
+          "0": "Если бы любовь была Солцнем, то это кубик льда."
+        },
+        "special_user": "{user} Авввв дорогуша. Мы и так знаем, что вы всегда идеальная пара на все 100.\nТут даже тест не нужен.",
+        "target_bot": "Боты существуют не для шипперинга, чудак!"
+      },
+      "slap": {
+        "loading": "{LOADING} Шлепаем по картинкам...",
+        "mention_self": "Ненене! Я не позволю шлепать самих себя, {user}.",
+        "mention_purr": "Неет... З-за что, {user}? T^T",
+        "message": "{user} шлепает {targets}",
+        "no_mention": "Пожалуйста упомяните хотя бы одного пользователя, чтобы шлёпнуть!"
+      },
+      "tickle": {
+        "loading": "{LOADING} Щекотим гифку...",
+        "mention_self": "Окей... Если ты этого так хочешь... \\*щекотит {user}*",
+        "mention_purr": "Н-не честно! Я н-не \\*смеется от щекотки*",
+        "message": "{user} щекотит {targets}",
+        "no_mention": "Упомяните, как минимум одного участника для щекотулек!"
+      }
+    },
+    "guild": {
+      "language": {
+        "few_args": "Не достаточно аргументов!\nИспользуйте: `{prefix}language set <язык>`",
+        "invalid_args": "Не правильные аргументы!\nИспользуйте: `{prefix}language <set <язык>|reset>`",
+        "invalid_lang": "Указанный язык не правильный!\nИспользуйте `{prefix}language` чтобы увидеть список доступных языков.",
+        "embed": {
+          "available_lang_title": "Доступные языки",
+          "curr_lang_title": "Установленный язык",
+          "curr_lang_value": "Русский (ru)",
+          "description": "Вы можте изменить язык на один из поддерживающихся, указанных ниже, используя `{prefix}language set <язык>`.",
+          "translators_title": "Переводчики",
+          "translators_value": "Спасибо всем, кто переводил бота!\nПолный список переводчиков и их переводов указан [здесь]({link})."
+        },
+        "language_set": "Язык установлен на `Русский (ru)`!",
+        "no_language": "Напишите язык, который хотите установить!"
+      },
+      "prefix": {
+        "few_args": "Недостаточно аргументов!\nИспользуйте: `{prefix}prefix <set <новый префикс>|reset>`",
+        "invalid_args": "Не правильные аргументы!\nИспользуйте: `{prefix}prefix <set <новый префикс>|reset>`",
+        "no_prefix": "Вам необходимо написать префикс!",
+        "reset": "Установлен стандартный префикс `.`",
+        "set": "Установлен префикс `{prefix}`"
+      },
+      "welcome": {
+        "current_msg": Текущее сообщение:\n```\n{message}\n```\n\nВы можете использовать метки.\n**Метки**:\n`{mention}`\n`{name}`\n`{guild}`\n`{count}`",
+        "embed": {
+          "channel": "Канал",
+          "color_title": "Цвет",
+          "color_value": "```\nВид:  {type}\nЗначение: {value}\n```",
+          "current_settings": "Текущие настройки для сообщения Добро пожаловать для этого сервера.\nИспользуйте `{prefix}welcome [подкоманда]` для изменения.\n\nГайд по установке приветсвия может быть найден на [wiki]({wiki_welcome}).",
+          "image_title": "Изображение",
+          "image_value": "```\nЗадний фон: {background}\nИконка:       {icon}\n```",
+          "message_title": "Сообщение",
+          "message_value": "```\n{message}\n```",
+          "no_channel": "`Канал не выбран`",
+          "preview": "Предпоказ",
+          "subcommands_title": "Подкоманды",
+          "subcommands_value": "```\nbg      set <задний фон>\n        reset\nchannel set <#канал>\n        reset\ncolor   set <hex:rrggbb|rgb:r,g,b>\n        reset\nicon    set <иконка>\n        reset\nmsg     set <сообщение>\n        reset```"
+        },
+        "few_args": "Недостаточно аргументовВ!\nИспользуйте `{prefix}welcome` чтобы увидеть все подкоманды.",
+        "invalid_args": "Invalid arguments!\nRun `{prefix}welcome` to see all available sub-commands.",
+        "invalid_bg": "Invalid background `{background}`\nCheck the [Wiki]({wiki_bg}) for available backgrounds.",
+        "invalid_channel": "Please mention a valid text channel!",
+        "invalid_color": "The provided color was invalid!\nSupported are `hex:rrggbb` or `rgb:r,g,b`",
+        "invalid_icon": "The provided icon was invalid!\nCheck the [Wiki]({wiki_icon}) for available icons.",
+        "no_bg": "Please provide a background name!\nA list of backgrounds can be found [here]({wiki_bg}).",
+        "no_channel": "No text channel provided! Make sure you mention one.",
+        "no_color": "No color provided!\nPlease either use `hex:rrggbb` or `rgb:r,g,b`",
+        "no_icon": "Please provide an icon name!\nA list of icons can be found [here]({wiki_icon}).",
+        "no_msg": "No message provided!",
+        "reset": "{type} resetted.",
+        "set": "{type} set to {value}"
+      }
+    },
+    "info": {
+      "emote": {
+        "embed": {
+          "emote": "Emote",
+          "guild": "Guild",
+          "id": "ID",
+          "image": "Image",
+          "link": "[`Link`]({link})",
+          "message": "Message",
+          "name": "Name"
+        },
+        "no_args": "Please provide either `:emote:` or `--search` after the command.",
+        "not_found": "Could not find any emotes in the past 100 messages.",
+        "unknown_guild": "Unknown Guild"
+      },
+      "guild": {
+        "embed": {
+          "boost_multiple": "{boost} boosts",
+          "boost_single": "1 boost",
+          "boost_tier": "Boost Tier: {BOOST_TIER} (Level {level})",
+          "created": "Created",
+          "level": "Level",
+          "levels": {
+            "unknown": "Unknown level",
+            "none": "No level",
+            "low": "Low",
+            "medium": "Medium",
+            "high": "(╯°□°）╯︵ ┻━┻",
+            "very_high": "┻━┻ ミ ヽ(ಠ益ಠ)ﾉ 彡 ┻━┻"
+          },
+          "owner": "Owner",
+          "region": "Region",
+          "users_title": "Users",
+          "users_value": "**Total**: `{total}`\n\n**Humans**: `{humans}`\n**Bots**: `{bots}`"
+        }
+      },
+      "help": {
+        "command_info": {
+          "aliases": "Aliases",
+          "command_nsfw": "Please run this command in a NSFW channel.",
+          "no_command": "This command doesn't exist!\nMake sure you typed it correctly.\n\n**Note**: Categories (e.g. NSFW) are NOT commands!",
+          "title": "Command help: {command}",
+          "usage_title": "Usage options",
+          "usage_value": "```\n{commands}\n```\n`[]` = Optional\n`<>` = Required"
+        },
+        "command_menu": {
+          "categories": {
+            "fun": "Fun",
+            "guild": "Guild",
+            "info": "Info",
+            "list": "```\nCategories:\n  Fun\n  Guild\n  Info\n  NSFW\n```",
+            "nsfw": "NSFW",
+            "owner": "Owner"
+          },
+          "description": "Use the \u25C0 or \u25B6 reactions to navigate through the pages and \u23F9 to cancel it.\nUse `{prefix}help [command]` to get more information about a specific command.",
+          "nsfw_info": "`Run the help command in a NSFW channel to see this page.`"
+        }
+      },
+      "info": {
+        "dm_failure": "I can't send you a DM {user}!",
+        "dm_success": "Check your DMs {user}!",
+        "embed": {
+          "about_title": "About me",
+          "about_value": "Oh hi there!\nI'm {name}. A bot for the ~Nya Discord.\nI was made by Andre_601 (<@{id}>) with the help of JDA and a lot of free time. ;)",
+          "bot_title": "Bot info",
+          "bot_value": "Bot Version: `{bot_version}`\nLibrary: [`JDA {jda_version}`]({link})",
+          "bot_list_title": "Bot lists",
+          "bot_list_value": "[`Botlist.space`]({botlist})\n[`Discordextremelist.xyz`]({del})\n[`Discord.bots.gg`]({db})\n[`Lbots.org`]({lbots})",
+          "commands_title": "Commands",
+          "commands_value": "Use `{prefix}help` in the Discord for a list of commands.",
+          "links_title": "Other links",
+          "links_value": "[`GitHub`]({github})\n[`Patreon`]({patreon})\n[`Support Discord`]({support})\n[`Twitter`]({twitter})\n[`Website`]({website})\n[`Wiki`]({wiki})"
+        }
+      },
+      "invite": {
+        "dm_failure": "Please allow me to send you a DM {user}!",
+        "dm_success": "Send you a message in DM {user}!",
+        "embed": {
+          "about_title": "About the Links",
+          "about_value": "Each of the links has a different purpose.\n`Recommended Invite` contains all permissions I need and a few more to make your experience more smooth.\n`Basic Invite` only has the required permissions.\n`Discord` is the invite to my support Discord.",
+          "info_title": "Invite me",
+          "info_value": "Heyo! Nice from you to invite me to your Discord. :3\nJust select one of the links below to get me on your Discord, so that I can bring fun and nekos to you.",
+          "links": "[`Recommended Invite`]({invite_full})\n[`Basic Invite`]({invite_basic})\n[`Discord`]({support})"
+        }
+      },
+      "level": {
+        "bot": "Bots can't level up. xP",
+        "info": "Level info of {user}",
+        "level": "Level",
+        "xp": "XP"
+      },
+      "ping": {
+        "loading": [
+          "{TYPING} Talking with Discord...",
+          "{TYPING} Catching a fish...",
+          "{TYPING} Giving a pong for the ping.",
+          "{TYPING} [placeholder_loading_text]",
+          "{TYPING} Hey Discord, are you there?"
+        ],
+        "info": "{EDIT} Edit message: `{edit_message}`\n{DISCORD} Discord: `{discord}`",
+        "info_full": "{EDIT} Edit message: `{edit_message}`\n{DISCORD} Discord: `{discord}`\n{DOWNLOAD} RestAction: `{rest_action}`"
+      },
+      "quote": {
+        "embed_basic": {
+          "channel": "Posted in #{channel}",
+          "info": "Quote from {user}"
+        },
+        "embed_image": {
+          "info": "Quote from {user} in {channel} [`[Link]`]({link})"
+        },
+        "few_args": "Too few arguments!\nUsage: `{prefix}quote <messageID> [#channel]`",
+        "invalid_id": "The provided ID was invalid!\nMake sure to have developer mode enabled and that you right-clicked the **message** and selected \"Copy id\".",
+        "no_msg": "Couldn't find the message in {channel}!\nMake sure that the ID is correct and that the message is in the right channel!",
+        "no_value": "The message doesn't have any image(s) nor any text to quote!",
+        "nsfw_channel": "The channel you mentioned ({channel}) is marked as NSFW, while this channel is not!\nI won't quote messages from NSFW-channels in non NSFW-channels for safety."
+      },
+      "stats": {
+        "uptime": {
+          "day": "day",
+          "days": "days",
+          "hour": "hour",
+          "hours": "hours",
+          "minute": "minute",
+          "minutes": "minutes",
+          "second": "second",
+          "seconds": "seconds"
+        },
+        "embed": {
+          "other_title": "Other stats",
+          "other_value": "```yaml\nRAM: {ram}\nUptime: {days}, {hours}, {minutes} and {seconds}\n```",
+          "shard_this_title": "This shard",
+          "shard_this_value": "```yaml\nID: {id} # IDs start at 0\n\nGuilds: {guilds}\nMembers: {total} [{users} Users, {bots} Bots]\n```",
+          "shard_total_title": "Total",
+          "shard_total_value": "```yaml\nShards: {shards}\n\nGuilds: {guilds}\nMembers: {total} [{users} Users, {bots} Bots]\n```",
+          "title": "Statistics"
+        }
+      },
+      "user": {
+        "embed": {
+          "avatar": "Avatar",
+          "avatar_url": "[`Avatar URL`]({link})",
+          "booster": "Booster since:",
+          "created": "Account created:",
+          "dates": "Dates",
+          "game": "Game: {status}",
+          "id": "ID: {id}",
+          "joined": "Guild joined:",
+          "level": "Level",
+          "nickname": "Nick: {nickname}",
+          "role_highest": "Highest Role",
+          "role_total": "Other Roles",
+          "xp": "XP"
+        },
+        "more_roles": "__**+{remaining} more**__",
+        "no_member": "The mentioned member is not in this Discord!",
+        "no_roles": "`No roles assigned`",
+        "no_roles_others": "`No other roles assigned`",
+        "status": {
+          "listening": "Listening to {game}",
+          "playing": "Playing {game}",
+          "streaming": "Streaming {game}",
+          "watching": "Watching {game}"
+        }
+      }
+    },
+    "nsfw": {
+      "blowjob": {
+        "mention_bot": "That would be like sticking your tongue into a socket.",
+        "mention_purr": "You perv! Get someone else to suck! \\*slaps {user}*",
+        "mention_self": "Oooookay. If you want to suck yourself, then I won't stop you {user}.",
+        "message": "{user} is giving {target} a blowjob!",
+        "no_mention": "Please mention a user you want to suck.",
+        "request": {
+          "accepted": "{target} accepted your request {user}!",
+          "denied": "{target} doesn't want to get sucked by you {user}. :/",
+          "message": "Hey {target}!\n{user} wants to give you a blowjob. Do you want that too?\nReact with \u2705 to accept or with \u274C to deny it.\n\n> **This request will time out in 1 minute!**",
+          "open": "Don't be that greedy {user}! Wait until your previous requests get accepted, denied or times out.",
+          "timed_out": "Looks like {target} doesn't want to get sucked by you {user}."
+        },
+        "special_user": "Okay sweetie. Let me get my \"toys\" so that we can have fun.\n\\*takes {user}'s hand and disappears in her room*"
+      },
+      "fuck": {
+        "mention_bot": "You can't fuck with bots!",
+        "mention_purr": "\\*slaps {user}* NO! Not with me you perv!",
+        "mention_self": "How can you actually fuck yourself {user}?! (No. Masturbation is not an answer)",
+        "message": "{user} and {target} have sex!",
+        "no_mention": "Please mention a user you want to fuck with.",
+        "request": {
+          "accepted": "{target} accepted your request {user}. OwO",
+          "denied": "{target} doesn't want to have sex with you {user}. >.<",
+          "message": "Hey {target}!\n{user} wants to fuck you. Do you want that too?\nReact with \u2705 to accept or with \u274C to deny it.\n\n> **This request will time out in 1 minute!**",
+          "open": "Don't be such a horny person {user}!\nYou already have a open request. Wait for it to be accepted, denied or for it to time out.",
+          "timed_out": "Looks like {target} doesn't want to fuck with you {user}. ._."
+        }
+      },
+      "lewd": {
+        "loading": "{LOADING} Getting a lewd neko image (or gif)...",
+        "title_gif": "Lewd neko {WAGTAIL}",
+        "title_img": "Lewd neko {NEKOWO}"
+      },
+      "solo": {
+        "loading": "{LOADING} Getting a gif of a hot girl...",
+        "title": "Solo girl"
+      },
+      "threesome": {
+        "mention_bot": "Trust me {user}. It's more fun with humans and not bots. ;)",
+        "mention_purr": "I know that I seem a bit kinky, but I'm not into *that* kind of stuff {user}!",
+        "mention_self": "Correct me if I'm wrong, but does a threesome usually not require **3** people {user}?",
+        "message": "{user} has sex with {target1} and {target2}! O//w//O",
+        "no_mention": "Please mention 2 users you want to fuck!",
+        "request": {
+          "accepted": "{target1} and {target2} accepted your request {user}! >//w//<",
+          "denied": "Either {target1} or {target2} don't want to have sex with you {user}.",
+          "message": "Hey {target1} and {target2}!\n{user} wants to fuck you both. Do you want that too?\nReact with \u2705 to accept or with \u274C to deny it.\nOnly if both of you accept this, will this happen.\n\n> **This request will time out in 1 minute!**",
+          "open": "Whoa there {user}! Show some patience you horny person!\nYou already asked people to fuck with you, so either wait for the to accept it, deny it or for the request to time out.",
+          "timed_out": "Looks like either {target1} or {target2} doesn't want to fuck with you {user}. >\\_<"
+        }
+      },
+      "yurifuck": {
+        "mention_bot": "You can't fuck with bots!",
+        "mention_purr": "Uhm... I-I'm kinda honored {user}, but I can't do that with you.",
+        "mention_self": "Why do you only want to play with yourself {user}? It's more fun with someone else! ;3",
+        "message": "{user} and {target} have sex!",
+        "no_mention": "Please mention a user you want to fuck with.",
+        "request": {
+          "accepted": "{target} accepted your request {user}. OwO",
+          "denied": "{target} doesn't want to have sex with you {user}. >.<",
+          "message": "Hey {target}!\n{user} wants to fuck you. Do you want that too?\nReact with \u2705 to accept or with \u274C to deny it.\n\n> **This request will time out in 1 minute!**",
+          "open": "You already asked someone to fuck with you {user}!\nWait for it to be accepted, denied or to time out.",
+          "timed_out": "Looks like {target} doesn't want to fuck with you {user}. .\\_."
+        }
+      }
+    }
+  },
+  "snuggle": {
+    "fun": {
+      "cuddle": {
+        "mention_snuggle": "\\*snuggles up to {user}*"
+      },
+      "hug": {
+        "mention_snuggle": "\\*loves the hug from {user}*"
+      },
+      "kiss": {
+        "mention_purr": "I won't help you kissing my sister through me {user}!",
+        "mention_snuggle": "Wha-? O-okay. B-but you can only kiss my cheek {user}! \\*Lets you kiss her cheek*",
+        "special_user": "W-why do you kiss my sister through me? Y-you can kiss her yourself {user}."
+      },
+      "lick": {
+        "mention_snuggle": "H-HEY! T-that is lewd {user}."
+      },
+      "neko": {
+        "purr": "Nya. That is my big sister. >w<",
+        "snuggle": "I-is that me? OwO"
+      },
+      "pat": {
+        "mention_snuggle": "\\*enjoys the pat*"
+      },
+      "poke": {
+        "mention_snuggle": "Nuuu. Do nu poke me!"
+      },
+      "ship": {
+        "mention_purr": "No! No shipping with my big sister {user}!",
+        "mention_snuggle": "N-no. I don't want to ship with you {user}.",
+        "special_user": "W-why should I ship you two {user}?\nG-go and do that yourself. >////<"
+      },
+      "slap": {
+        "mention_snuggle": "\\*runs away from {user}*"
+      },
+      "tickle": {
+        "mention_snuggle": "H-help! I c-can't lau- \\*starts laughing*"
+      }
+    },
+    "info": {
+      "info": {
+        "dm_failure": "Your DMs are closed {user}. I can't send the info if they are closed. :,(",
+        "dm_success": "\uD83D\uDCEC You got mail {user}!",
+        "embed": {
+          "about_title": "About me",
+          "about_value": "Oh hi there!\nI'm {name}. I'm the sister of \\*Purr*.",
+          "bot_title": "Bot info",
+          "bot_value": "Bot Version: `{version}`\nLibrary: [`JDA {version}`]({link})",
+          "commands_title": "Commands",
+          "commands_value": "Use `{prefix}help` in the Discord for a list of commands.",
+          "links_title": "Other links",
+          "links_value": "[`GitHub`]({github})\n[`Patreon`]({patreon})\n[`Support Discord`]({support})\n[`Twitter`]({twitter})\n[`Website`]({website})\n[`Wiki`]({wiki})"
+        }
+      },
+      "invite": {
+        "message": "Nya! You can't invite me to your Discord {user}! Go and invite my sister instead!"
+      },
+      "level": {
+        "purr_only": "Nya! This command is only available for my Sister \\*Purr*! >w<"
+      }
+    },
+    "nsfw": {
+      "blowjob": {
+        "mention_snuggle": "\\*runs away and hides* I don't want lewd {user}",
+        "mention_self": "Hehehe... Sucking yourself. You must be lonely or shy {user}.",
+        "special_user": "W-why do you want to do this with me {user}? Y-you have my sister for that."
+      },
+      "fuck": {
+        "mention_snuggle": "N-no! I won't do this with you {user}."
+      },
+      "threesome": {
+        "mention_snuggle": "I-I'm not into that stuff {user}!"
+      },
+      "yurifuck": {
+        "mention_snuggle": "W-why do you want to do this with me {user}? I don't know you!"
+      }
+    }
+  }
+}
