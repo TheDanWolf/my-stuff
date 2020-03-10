@@ -169,201 +169,201 @@
           "subcommands_title": "Подкоманды",
           "subcommands_value": "```\nbg      set <задний фон>\n        reset\nchannel set <#канал>\n        reset\ncolor   set <hex:rrggbb|rgb:r,g,b>\n        reset\nicon    set <иконка>\n        reset\nmsg     set <сообщение>\n        reset```"
         },
-        "few_args": "Недостаточно аргументов!\nИспользуйте `{prefix}welcome` чтобы увидеть все подкоманды.",
-        "invalid_args": "Invalid arguments!\nRun `{prefix}welcome` to see all available sub-commands.",
-        "invalid_bg": "Invalid background `{background}`\nCheck the [Wiki]({wiki_bg}) for available backgrounds.",
-        "invalid_channel": "Please mention a valid text channel!",
-        "invalid_color": "The provided color was invalid!\nSupported are `hex:rrggbb` or `rgb:r,g,b`",
-        "invalid_icon": "The provided icon was invalid!\nCheck the [Wiki]({wiki_icon}) for available icons.",
-        "no_bg": "Please provide a background name!\nA list of backgrounds can be found [here]({wiki_bg}).",
-        "no_channel": "No text channel provided! Make sure you mention one.",
-        "no_color": "No color provided!\nPlease either use `hex:rrggbb` or `rgb:r,g,b`",
-        "no_icon": "Please provide an icon name!\nA list of icons can be found [here]({wiki_icon}).",
-        "no_msg": "No message provided!",
-        "reset": "{type} resetted.",
-        "set": "{type} set to {value}"
+        "few_args": "Недостаточно аргументов!\nИспользуйте `{prefix}welcome`, чтобы увидеть все подкоманды.",
+        "invalid_args": "Неправильные аргументы!\nИспользуйте `{prefix}welcome`, чтобы увидеть все подкоманды.",
+        "invalid_bg": "Неправильный фон `{background}`\nПроверьте [wiki]({wiki_bg}) для доступных фонов.",
+        "invalid_channel": "Упомяните правильный текстовый канал!",
+        "invalid_color": "Выбранный цвет неправильный!\nПоддержимваемые цвета это `hex:rrggbb` или `rgb:r,g,b`",
+        "invalid_icon": "Выбранная иконка неправильная!\nПроверьте [wiki]({wiki_icon}) для доступных иконок.",
+        "no_bg": "Пожалуйста выберите правильное название фона!\nДоступные названия можно найти [здесь]({wiki_bg}).",
+        "no_channel": "Не упомянут текстовый канал! Проверьте, сделали ли Вы это.",
+        "no_color": "Цвет не выбран!\nИспользуйте либо `hex:rrggbb`, либо `rgb:r,g,b`",
+        "no_icon": "Пожалуйста выберите название иконки!\nСписок названий находится [здесь]({wiki_icon}).",
+        "no_msg": "Сообщение не было записано!",
+        "reset": "{type} возвращен к стандартным настройкам.",
+        "set": "{type} установлен на {value}"
       }
     },
     "info": {
       "emote": {
         "embed": {
-          "emote": "Emote",
-          "guild": "Guild",
+          "emote": "Эмодзи",
+          "guild": "Сервер",
           "id": "ID",
-          "image": "Image",
-          "link": "[`Link`]({link})",
-          "message": "Message",
-          "name": "Name"
+          "image": "Изображение",
+          "link": "[`Ссылка`]({link})",
+          "message": "Сообщение",
+          "name": "Название"
         },
-        "no_args": "Please provide either `:emote:` or `--search` after the command.",
-        "not_found": "Could not find any emotes in the past 100 messages.",
-        "unknown_guild": "Unknown Guild"
+        "no_args": "Напишите либо `:эмодзи:`, либо `--search` после команды.",
+        "not_found": "Не найдено ни одного эмодзи за последние 100 сообщений.",
+        "unknown_guild": "Неизвестный сервер"
       },
       "guild": {
         "embed": {
-          "boost_multiple": "{boost} boosts",
-          "boost_single": "1 boost",
-          "boost_tier": "Boost Tier: {BOOST_TIER} (Level {level})",
-          "created": "Created",
-          "level": "Level",
+          "boost_multiple": "{boost} бусты",
+          "boost_single": "1 буст",
+          "boost_tier": "Уровень буста: {BOOST_TIER} (Уровень {level})",
+          "created": "Создано",
+          "level": "Уровень",
           "levels": {
-            "unknown": "Unknown level",
-            "none": "No level",
-            "low": "Low",
-            "medium": "Medium",
+            "unknown": "Неизвестный уровень",
+            "none": "Уровня нет",
+            "low": "Низкий",
+            "medium": "Средний",
             "high": "(╯°□°）╯︵ ┻━┻",
             "very_high": "┻━┻ ミ ヽ(ಠ益ಠ)ﾉ 彡 ┻━┻"
           },
-          "owner": "Owner",
-          "region": "Region",
-          "users_title": "Users",
-          "users_value": "**Total**: `{total}`\n\n**Humans**: `{humans}`\n**Bots**: `{bots}`"
+          "owner": "Владелец",
+          "region": "Регион",
+          "users_title": "Пользователи",
+          "users_value": "**Всего**: `{total}`\n\n**Пользователей**: `{humans}`\n**Ботов**: `{bots}`"
         }
       },
       "help": {
         "command_info": {
-          "aliases": "Aliases",
-          "command_nsfw": "Please run this command in a NSFW channel.",
-          "no_command": "This command doesn't exist!\nMake sure you typed it correctly.\n\n**Note**: Categories (e.g. NSFW) are NOT commands!",
-          "title": "Command help: {command}",
-          "usage_title": "Usage options",
-          "usage_value": "```\n{commands}\n```\n`[]` = Optional\n`<>` = Required"
+          "aliases": "Псевдонимы",
+          "command_nsfw": "Пожалуйста используйте эту команду в NSFW канале.",
+          "no_command": "Такой команды нет!\nУбедитесь, что написали её правильно.\n\n**Заметка**: категории (например NSFW) НЕ команды!",
+          "title": "Помощь по команде: {command}",
+          "usage_title": "Опции команды",
+          "usage_value": "```\n{commands}\n```\n`[]` = Необьязательно\n`<>` = Необходимо"
         },
         "command_menu": {
           "categories": {
-            "fun": "Fun",
-            "guild": "Guild",
-            "info": "Info",
-            "list": "```\nCategories:\n  Fun\n  Guild\n  Info\n  NSFW\n```",
+            "fun": "Веселье",
+            "guild": "Сервер",
+            "info": "Информация",
+            "list": "```\nКатегории:\n  Веселье\n  Сервер\n  Информация\n  NSFW\n```",
             "nsfw": "NSFW",
-            "owner": "Owner"
+            "owner": "Владелец"
           },
-          "description": "Use the \u25C0 or \u25B6 reactions to navigate through the pages and \u23F9 to cancel it.\nUse `{prefix}help [command]` to get more information about a specific command.",
-          "nsfw_info": "`Run the help command in a NSFW channel to see this page.`"
+          "description": "Используйте \u25C0 или \u25B6 эмодзи, чтобы листать страницы и \u23F9 для отмены.\nИспользуйте `{prefix}help [команда]` для подробностей.",
+          "nsfw_info": "`Используйте эту команду помощи в NSFW канале, чтобы увидеть эту страницу.`"
         }
       },
       "info": {
-        "dm_failure": "I can't send you a DM {user}!",
-        "dm_success": "Check your DMs {user}!",
+        "dm_failure": "Я не могу отправить тебе сообщение в ЛС, {user}!",
+        "dm_success": "Проверь свой ЛС, {user}!",
         "embed": {
-          "about_title": "About me",
-          "about_value": "Oh hi there!\nI'm {name}. A bot for the ~Nya Discord.\nI was made by Andre_601 (<@{id}>) with the help of JDA and a lot of free time. ;)",
-          "bot_title": "Bot info",
-          "bot_value": "Bot Version: `{bot_version}`\nLibrary: [`JDA {jda_version}`]({link})",
-          "bot_list_title": "Bot lists",
+          "about_title": "Обо мне",
+          "about_value": "Ой, приветики!\nЯ {name}. Бот для ~ня Discord.\nЯ была создана Andre_601 (<@{id}>) с помощью JDA и кучи свободного времени. ;)",
+          "bot_title": "Информация о боте",
+          "bot_value": "Версия: `{bot_version}`\nБиблиотека: [`JDA {jda_version}`]({link})",
+          "bot_list_title": "Списки ботов",
           "bot_list_value": "[`Botlist.space`]({botlist})\n[`Discordextremelist.xyz`]({del})\n[`Discord.bots.gg`]({db})\n[`Lbots.org`]({lbots})",
-          "commands_title": "Commands",
-          "commands_value": "Use `{prefix}help` in the Discord for a list of commands.",
-          "links_title": "Other links",
-          "links_value": "[`GitHub`]({github})\n[`Patreon`]({patreon})\n[`Support Discord`]({support})\n[`Twitter`]({twitter})\n[`Website`]({website})\n[`Wiki`]({wiki})"
+          "commands_title": "Команды",
+          "commands_value": "Используйте `{prefix}help` в Discord для списка команд.",
+          "links_title": "Другие ссылки",
+          "links_value": "[`GitHub`]({github})\n[`Patreon`]({patreon})\n[`Discord-сервер для помощи`]({support})\n[`Twitter`]({twitter})\n[`Сайт`]({website})\n[`Wiki`]({wiki})"
         }
       },
       "invite": {
-        "dm_failure": "Please allow me to send you a DM {user}!",
-        "dm_success": "Send you a message in DM {user}!",
+        "dm_failure": "Разрешите мне отправлять вам ЛС, {user}!",
+        "dm_success": "Отправила в ЛС, {user}!",
         "embed": {
-          "about_title": "About the Links",
-          "about_value": "Each of the links has a different purpose.\n`Recommended Invite` contains all permissions I need and a few more to make your experience more smooth.\n`Basic Invite` only has the required permissions.\n`Discord` is the invite to my support Discord.",
-          "info_title": "Invite me",
-          "info_value": "Heyo! Nice from you to invite me to your Discord. :3\nJust select one of the links below to get me on your Discord, so that I can bring fun and nekos to you.",
-          "links": "[`Recommended Invite`]({invite_full})\n[`Basic Invite`]({invite_basic})\n[`Discord`]({support})"
+          "about_title": "Насчёт ссылок",
+          "about_value": "Каждая из ссылок имеют свои назначения.\n`Рекомендованое приглашение` содержит весь список разрешений, которые мне нужны, чтобы сделать работу с Вами еще легче.\n`Базовое приглашение` только необхоимдое.\n`Discord` приглашение в мой Discord-сервер для поддержки.",
+          "info_title": "Пригласите меня",
+          "info_value": "Хей~! Спасибо за приглашение в Ваш Discord-сервер. :3\nПросто выберите одну из ссылок, чтобы заполучить меня на Вашем сервере и я смогу приносить Вам счастье и разных неко.",
+          "links": "[`Рекомендованное приглашение`]({invite_full})\n[`Базовое приглашение`]({invite_basic})\n[`Discord`]({support})"
         }
       },
       "level": {
-        "bot": "Bots can't level up. xP",
-        "info": "Level info of {user}",
-        "level": "Level",
-        "xp": "XP"
+        "bot": "Боты не могут повышать уровень. xP",
+        "info": "Уровень участника {user}",
+        "level": "Уровень",
+        "xp": "Опыт"
       },
       "ping": {
         "loading": [
-          "{TYPING} Talking with Discord...",
-          "{TYPING} Catching a fish...",
-          "{TYPING} Giving a pong for the ping.",
-          "{TYPING} [placeholder_loading_text]",
-          "{TYPING} Hey Discord, are you there?"
+          "{TYPING} Общаемся с Discord'ом...",
+          "{TYPING} Рыбачим...",
+          "{TYPING} Отдаем понг, за пинг.",
+          "{TYPING} [вставьте_загрузочный_текст]",
+          "{TYPING} Алло Discord, ты тута?"
         ],
-        "info": "{EDIT} Edit message: `{edit_message}`\n{DISCORD} Discord: `{discord}`",
-        "info_full": "{EDIT} Edit message: `{edit_message}`\n{DISCORD} Discord: `{discord}`\n{DOWNLOAD} RestAction: `{rest_action}`"
+        "info": "{EDIT} Отредактированных сообщений: `{edit_message}`\n{DISCORD} Discord: `{discord}`",
+        "info_full": "{EDIT} Отредактированных сообщений: `{edit_message}`\n{DISCORD} Discord: `{discord}`\n{DOWNLOAD} ДействияОтдыха: `{rest_action}`"
       },
       "quote": {
         "embed_basic": {
-          "channel": "Posted in #{channel}",
-          "info": "Quote from {user}"
+          "channel": "Пост создан в #{channel}",
+          "info": "Цитата от {user}"
         },
         "embed_image": {
-          "info": "Quote from {user} in {channel} [`[Link]`]({link})"
+          "info": "Цитата от {user} в {channel} [`[Ссылка]`]({link})"
         },
-        "few_args": "Too few arguments!\nUsage: `{prefix}quote <messageID> [#channel]`",
-        "invalid_id": "The provided ID was invalid!\nMake sure to have developer mode enabled and that you right-clicked the **message** and selected \"Copy id\".",
-        "no_msg": "Couldn't find the message in {channel}!\nMake sure that the ID is correct and that the message is in the right channel!",
-        "no_value": "The message doesn't have any image(s) nor any text to quote!",
-        "nsfw_channel": "The channel you mentioned ({channel}) is marked as NSFW, while this channel is not!\nI won't quote messages from NSFW-channels in non NSFW-channels for safety."
+        "few_args": "Слишком мало аргументов!\nИспользуйте: `{prefix}quote <ID сообщения> [#канал]`",
+        "invalid_id": "Указанный айди неправильный!\nУбедитесь, что у Вас включен режим разработчика и то, что Вы нажали правой кнопкной мыши на **сообщение** и выбрали \"Копировать ID\".",
+        "no_msg": "Сообщение в {channel} не найдено!\nУбедитесь, что ID правильное и нужное сообщение в нужном канале!",
+        "no_value": "Сообщений не имеет в себе картинок или текста для цитаты!",
+        "nsfw_channel": "Канал, упомянутый Вами ({channel}) помечен, как NSWF, а этот канал нет!\nЯ не буду цитировать сообщения из NSFW каналов в не NSFW каналы для безопастности."
       },
       "stats": {
         "uptime": {
-          "day": "day",
-          "days": "days",
-          "hour": "hour",
-          "hours": "hours",
-          "minute": "minute",
-          "minutes": "minutes",
-          "second": "second",
-          "seconds": "seconds"
+          "day": "день",
+          "days": "дней",
+          "hour": "час",
+          "hours": "часов",
+          "minute": "минута",
+          "minutes": "минут",
+          "second": "секунда",
+          "seconds": "секунд"
         },
         "embed": {
-          "other_title": "Other stats",
-          "other_value": "```yaml\nRAM: {ram}\nUptime: {days}, {hours}, {minutes} and {seconds}\n```",
-          "shard_this_title": "This shard",
-          "shard_this_value": "```yaml\nID: {id} # IDs start at 0\n\nGuilds: {guilds}\nMembers: {total} [{users} Users, {bots} Bots]\n```",
-          "shard_total_title": "Total",
-          "shard_total_value": "```yaml\nShards: {shards}\n\nGuilds: {guilds}\nMembers: {total} [{users} Users, {bots} Bots]\n```",
-          "title": "Statistics"
+          "other_title": "Другие данные",
+          "other_value": "```yaml\nОЗУ: {ram}\nВремя работы: {days}, {hours}, {minutes} и {seconds}\n```",
+          "shard_this_title": "Эта часть",
+          "shard_this_value": "```yaml\nID: {id} # ID начинается с 0\n\nСервера: {guilds}\nУчастники: {total} [{users} участников, {bots} ботов]\n```",
+          "shard_total_title": "Всего",
+          "shard_total_value": "```yaml\nЧастей: {shards}\n\nСерверов: {guilds}\nУчастники: {total} [{users} участников, {bots} ботов]\n```",
+          "title": "Статистика"
         }
       },
       "user": {
         "embed": {
-          "avatar": "Avatar",
-          "avatar_url": "[`Avatar URL`]({link})",
-          "booster": "Booster since:",
-          "created": "Account created:",
-          "dates": "Dates",
-          "game": "Game: {status}",
+          "avatar": "Аватар",
+          "avatar_url": "[`Ссылка на аватарку`]({link})",
+          "booster": "Буст с:",
+          "created": "Аккаунт создан:",
+          "dates": "Даты",
+          "game": "Игра: {status}",
           "id": "ID: {id}",
-          "joined": "Guild joined:",
-          "level": "Level",
-          "nickname": "Nick: {nickname}",
-          "role_highest": "Highest Role",
-          "role_total": "Other Roles",
-          "xp": "XP"
+          "joined": "Присоединился(-лась):",
+          "level": "Уровень",
+          "nickname": "Никнейм: {nickname}",
+          "role_highest": "Высшая роль",
+          "role_total": "Другие роли",
+          "xp": "Очки опыта"
         },
-        "more_roles": "__**+{remaining} more**__",
-        "no_member": "The mentioned member is not in this Discord!",
-        "no_roles": "`No roles assigned`",
-        "no_roles_others": "`No other roles assigned`",
+        "more_roles": "__**+{remaining} других**__",
+        "no_member": "Упомянутый пользователь не участник этого Discord-севрера!",
+        "no_roles": "`Нету назначенных ролей`",
+        "no_roles_others": "`Других ролей не назначено`",
         "status": {
-          "listening": "Listening to {game}",
-          "playing": "Playing {game}",
-          "streaming": "Streaming {game}",
-          "watching": "Watching {game}"
+          "listening": "Слушает {game}",
+          "playing": "Играет {game}",
+          "streaming": "Стримит {game}",
+          "watching": "Смотрит {game}"
         }
       }
     },
     "nsfw": {
       "blowjob": {
-        "mention_bot": "That would be like sticking your tongue into a socket.",
-        "mention_purr": "You perv! Get someone else to suck! \\*slaps {user}*",
-        "mention_self": "Oooookay. If you want to suck yourself, then I won't stop you {user}.",
-        "message": "{user} is giving {target} a blowjob!",
-        "no_mention": "Please mention a user you want to suck.",
+        "mention_bot": "Представь, что суешь язык в розетку, тоже самое.",
+        "mention_purr": "Извращенец! Найди кого-нибудь другого для этого! \\*бьёт {user}*",
+        "mention_self": "Ооооооокей. Если хочешь отсосаться себе, то я тебе не остановлю, {user}.",
+        "message": "{user} делает {target} минет!",
+        "no_mention": "Упомяните пользователя для минета.",
         "request": {
-          "accepted": "{target} accepted your request {user}!",
-          "denied": "{target} doesn't want to get sucked by you {user}. :/",
-          "message": "Hey {target}!\n{user} wants to give you a blowjob. Do you want that too?\nReact with \u2705 to accept or with \u274C to deny it.\n\n> **This request will time out in 1 minute!**",
-          "open": "Don't be that greedy {user}! Wait until your previous requests get accepted, denied or times out.",
-          "timed_out": "Looks like {target} doesn't want to get sucked by you {user}."
+          "accepted": "{target} принимает запрос {user}!",
+          "denied": "{target} не хочет минета от {user}. :/",
+          "message": "Хэй {target}!\n{user} хочет сделать тебе минет. Хочешь ли ты этого?\nНажми \u2705, чтобы принять или \u274C, чтобы отклонить.\n\n> **Этот запрос будет существовать 1 минуту!**",
+          "open": "Не будь настолько жадным(-ой), {user}! Подожди, пока остальные запросы будут приняты, отклонены или исстекут.",
+          "timed_out": "Упс! Похоже {target} не желает минета от {user}."
         },
-        "special_user": "Okay sweetie. Let me get my \"toys\" so that we can have fun.\n\\*takes {user}'s hand and disappears in her room*"
+        "special_user": "Хорошо, дорогуша. Дай мне достать мои \"игрушки\", чтобы мы смогли повеселиться.\n\\*берет за руку {user} и исчезает в своей комнате*"
       },
       "fuck": {
         "mention_bot": "You can't fuck with bots!",
