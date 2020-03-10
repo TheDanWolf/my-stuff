@@ -366,54 +366,54 @@
         "special_user": "Хорошо, дорогуша. Дай мне достать мои \"игрушки\", чтобы мы смогли повеселиться.\n\\*берет за руку {user} и исчезает в своей комнате*"
       },
       "fuck": {
-        "mention_bot": "You can't fuck with bots!",
-        "mention_purr": "\\*slaps {user}* NO! Not with me you perv!",
-        "mention_self": "How can you actually fuck yourself {user}?! (No. Masturbation is not an answer)",
-        "message": "{user} and {target} have sex!",
-        "no_mention": "Please mention a user you want to fuck with.",
+        "mention_bot": "Вы не можете трахаться с ботами!",
+        "mention_purr": "\\*шлёп по {user}* НЕТ! Не со мной же, извращенец!",
+        "mention_self": "Как ты можешь трахнуть себя, {user}?! (Нет. Дрочка — не ответ.)",
+        "message": "{user} и {target} занялись сексом!",
+        "no_mention": "Укажите участника для секса.",
         "request": {
-          "accepted": "{target} accepted your request {user}. OwO",
-          "denied": "{target} doesn't want to have sex with you {user}. >.<",
-          "message": "Hey {target}!\n{user} wants to fuck you. Do you want that too?\nReact with \u2705 to accept or with \u274C to deny it.\n\n> **This request will time out in 1 minute!**",
-          "open": "Don't be such a horny person {user}!\nYou already have a open request. Wait for it to be accepted, denied or for it to time out.",
-          "timed_out": "Looks like {target} doesn't want to fuck with you {user}. ._."
+          "accepted": "{target} принимает просьбу {user}. OwO",
+          "denied": "{target} не хочет заниматься сексом с {user}. >.<",
+          "message": "Эй {target}!\n{user} хочет трахнуть тебя. Ты... Хочешь этого?\nНажми на \u2705, если да или этим \u274C, если нет.\n\n> **Это предложение истечет через 1 минуту!**",
+          "open": "Не будь настолько пошлым(-ой), {user}!\nУ тебя все еще весит открытая заявка. Дождись принятия, отказа или истечения.",
+          "timed_out": "Кхем... Похоже {target} не хочет секса с тобой, {user}. ._."
         }
       },
       "lewd": {
-        "loading": "{LOADING} Getting a lewd neko image (or gif)...",
-        "title_gif": "Lewd neko {WAGTAIL}",
-        "title_img": "Lewd neko {NEKOWO}"
+        "loading": "{LOADING} Крадем фотки с пошлыми неками (или гифки)...",
+        "title_gif": "Пошлая неко {WAGTAIL}",
+        "title_img": "Пошлая неко {NEKOWO}"
       },
       "solo": {
-        "loading": "{LOADING} Getting a gif of a hot girl...",
-        "title": "Solo girl"
+        "loading": "{LOADING} Собираем гифки горячих девочек...",
+        "title": "Девочка-одиночка"
       },
       "threesome": {
-        "mention_bot": "Trust me {user}. It's more fun with humans and not bots. ;)",
-        "mention_purr": "I know that I seem a bit kinky, but I'm not into *that* kind of stuff {user}!",
-        "mention_self": "Correct me if I'm wrong, but does a threesome usually not require **3** people {user}?",
-        "message": "{user} has sex with {target1} and {target2}! O//w//O",
+        "mention_bot": "Поверь мне, {user}. Намного веселее заниматься этим с людьми, а не ботами. ;)",
+        "mention_purr": "Может быть я и выгляжу, как фетешист, но я не люблю *такие* штуки, {user}!",
+        "mention_self": "Исправь, если не права, но разве тройничок не обозначает, что там участвуют ***3*** персоны, {user}?",
+        "message": "{user} занимается сексом с {target1} и {target2}! O//w//O",
         "no_mention": "Please mention 2 users you want to fuck!",
         "request": {
-          "accepted": "{target1} and {target2} accepted your request {user}! >//w//<",
-          "denied": "Either {target1} or {target2} don't want to have sex with you {user}.",
-          "message": "Hey {target1} and {target2}!\n{user} wants to fuck you both. Do you want that too?\nReact with \u2705 to accept or with \u274C to deny it.\nOnly if both of you accept this, will this happen.\n\n> **This request will time out in 1 minute!**",
-          "open": "Whoa there {user}! Show some patience you horny person!\nYou already asked people to fuck with you, so either wait for the to accept it, deny it or for the request to time out.",
-          "timed_out": "Looks like either {target1} or {target2} doesn't want to fuck with you {user}. >\\_<"
+          "accepted": "{target1} и {target2} приняли запрос {user}! >//w//<",
+          "denied": "Либо {target1}, либо {target2} не хотят секса с тобой, {user}.",
+          "message": "Хэй {target1} и {target2}!\n{user} хочет вас трахнуть. Вы правда этого хотите?\nЕсли да, то жмите \u2705, если нет, то \u274C, чтобы отклонить.\nТолько, если оба пользователя нажму да, произойдет тройник.\n\n> **Этот запрос истекает через 1 минуту!**",
+          "open": "Воу-воу, {user}! Придержи коней!\nСлишком много людей ты просишь для этого, так что жди принятия, отказа или истечения по времени.",
+          "timed_out": "Похоже, {target1} и {target2} не хотят секса с тобой, {user}. >\\_<"
         }
       },
       "yurifuck": {
-        "mention_bot": "You can't fuck with bots!",
-        "mention_purr": "Uhm... I-I'm kinda honored {user}, but I can't do that with you.",
-        "mention_self": "Why do you only want to play with yourself {user}? It's more fun with someone else! ;3",
-        "message": "{user} and {target} have sex!",
-        "no_mention": "Please mention a user you want to fuck with.",
+        "mention_bot": "Эм, ты не трахаться с ботами!",
+        "mention_purr": "Э-кхм... Я-я рада, что ты хочешь этого со мной, {user}, но я не могу.",
+        "mention_self": "Почему ты хочешь поиграть только с собой, {user}? Намного веселее с кем-то! ;3",
+        "message": "{user} и {target} занялись сексом!",
+        "no_mention": "Упомяните участника для этого.",
         "request": {
-          "accepted": "{target} accepted your request {user}. OwO",
-          "denied": "{target} doesn't want to have sex with you {user}. >.<",
-          "message": "Hey {target}!\n{user} wants to fuck you. Do you want that too?\nReact with \u2705 to accept or with \u274C to deny it.\n\n> **This request will time out in 1 minute!**",
-          "open": "You already asked someone to fuck with you {user}!\nWait for it to be accepted, denied or to time out.",
-          "timed_out": "Looks like {target} doesn't want to fuck with you {user}. .\\_."
+          "accepted": "{target} принимает запрос {user}. OwO",
+          "denied": "{target} не хочет секса с тобой, {user}. >.<",
+          "message": "Эй, {target}!\n{user} хочет трахнуть тебя. Ты правда этого хочешь?\nЕсли да, то жми \u2705 или \u274C, чтобы отменить.\n\n> **Этот запрос истекает через 1 минуту!**",
+          "open": "Эй, {user}, нельзя просить сразу двоих о сексе (для этого существует тройник)!\nДождись принятия, отказа или пока оно истечет.",
+          "timed_out": "Наверное {target} не хочет секса с тобой, {user}. .\\_."
         }
       }
     }
@@ -421,77 +421,77 @@
   "snuggle": {
     "fun": {
       "cuddle": {
-        "mention_snuggle": "\\*snuggles up to {user}*"
+        "mention_snuggle": "\\*прижимается к {user}*"
       },
       "hug": {
-        "mention_snuggle": "\\*loves the hug from {user}*"
+        "mention_snuggle": "\\*наслаждается обнимашками от {user}*"
       },
       "kiss": {
-        "mention_purr": "I won't help you kissing my sister through me {user}!",
-        "mention_snuggle": "Wha-? O-okay. B-but you can only kiss my cheek {user}! \\*Lets you kiss her cheek*",
-        "special_user": "W-why do you kiss my sister through me? Y-you can kiss her yourself {user}."
+        "mention_purr": "А нельзя так целовать мою сестру, так еще и через меня, {user}!",
+        "mention_snuggle": "Чт-? Л-ладно. Н-но только щёчку {user}! \\*Даёт поцеловать её щёчку*",
+        "special_user": "П-почему ты хочешь поцеловать мою сестру через меня? Т-ты можешь поцеловать её самостоятельно, {user}."
       },
       "lick": {
-        "mention_snuggle": "H-HEY! T-that is lewd {user}."
+        "mention_snuggle": "Э-ЭЙ! Э-это пошло {user}."
       },
       "neko": {
-        "purr": "Nya. That is my big sister. >w<",
-        "snuggle": "I-is that me? OwO"
+        "purr": "Ня~. Моя старшая сестрёнка. >w<",
+        "snuggle": "Э-это я? OwO"
       },
       "pat": {
-        "mention_snuggle": "\\*enjoys the pat*"
+        "mention_snuggle": "\\*насслаждается поглаживанием*"
       },
       "poke": {
-        "mention_snuggle": "Nuuu. Do nu poke me!"
+        "mention_snuggle": "Не-ет. Не тыкай меня!"
       },
       "ship": {
-        "mention_purr": "No! No shipping with my big sister {user}!",
-        "mention_snuggle": "N-no. I don't want to ship with you {user}.",
-        "special_user": "W-why should I ship you two {user}?\nG-go and do that yourself. >////<"
+        "mention_purr": "Нет! Никакого шипперства с моей сестрой, {user}!",
+        "mention_snuggle": "Н-нет. Я не хочу шипперится с тобой, {user}.",
+        "special_user": "П-почему я должна шипперить вас, {user}?\nС-сделайте это сами. >////<"
       },
       "slap": {
-        "mention_snuggle": "\\*runs away from {user}*"
+        "mention_snuggle": "\\*убегает {user}*"
       },
       "tickle": {
-        "mention_snuggle": "H-help! I c-can't lau- \\*starts laughing*"
+        "mention_snuggle": "С-спасите! Я н-не могу ост- \\*смеётся*"
       }
     },
     "info": {
       "info": {
-        "dm_failure": "Your DMs are closed {user}. I can't send the info if they are closed. :,(",
-        "dm_success": "\uD83D\uDCEC You got mail {user}!",
+        "dm_failure": "Упс, твой ЛС закрыт, {user}. Я не могу отослать тебе информацию, если они закрыты. :,(",
+        "dm_success": "\uD83D\uDCEC Вам письмо, {user}!",
         "embed": {
-          "about_title": "About me",
-          "about_value": "Oh hi there!\nI'm {name}. I'm the sister of \\*Purr*.",
-          "bot_title": "Bot info",
-          "bot_value": "Bot Version: `{version}`\nLibrary: [`JDA {version}`]({link})",
-          "commands_title": "Commands",
-          "commands_value": "Use `{prefix}help` in the Discord for a list of commands.",
+          "about_title": "Обо мне",
+          "about_value": "Приветики!\nЯ {name}. Сестрёнка \\*Purr*.",
+          "bot_title": "Информация о боте",
+          "bot_value": "Версия: `{version}`\nБиблиотека: [`JDA {version}`]({link})",
+          "commands_title": "Команды",
+          "commands_value": "Используйте `{prefix}help` в чате, чтобы получить помощь.",
           "links_title": "Other links",
-          "links_value": "[`GitHub`]({github})\n[`Patreon`]({patreon})\n[`Support Discord`]({support})\n[`Twitter`]({twitter})\n[`Website`]({website})\n[`Wiki`]({wiki})"
+          "links_value": "[`GitHub`]({github})\n[`Patreon`]({patreon})\n[`Discord-сервер`]({support})\n[`Twitter`]({twitter})\n[`Сайт`]({website})\n[`Wiki`]({wiki})"
         }
       },
       "invite": {
-        "message": "Nya! You can't invite me to your Discord {user}! Go and invite my sister instead!"
+        "message": "Ня! Ты не можешь добавить меня на свой сервер, {user}! Добавь мою сестрёнку вместо меня!"
       },
       "level": {
-        "purr_only": "Nya! This command is only available for my Sister \\*Purr*! >w<"
+        "purr_only": "Ня! Эта команда доступна только моей сестрёнке \\*Purr*! >w<"
       }
     },
     "nsfw": {
       "blowjob": {
-        "mention_snuggle": "\\*runs away and hides* I don't want lewd {user}",
-        "mention_self": "Hehehe... Sucking yourself. You must be lonely or shy {user}.",
-        "special_user": "W-why do you want to do this with me {user}? Y-you have my sister for that."
+        "mention_snuggle": "\\*убегает и прячется* Не хочу пошлостей, {user}",
+        "mention_self": "Хехехе... Сосешь себе. Тебе наверняка одиноко или ты стесняешься, {user}.",
+        "special_user": "П-почему, ты хочешь сделать это мне, {user}? У т-тебя, есть моя сестрёнка."
       },
       "fuck": {
-        "mention_snuggle": "N-no! I won't do this with you {user}."
+        "mention_snuggle": "Н-нет! Я не буду делать это с тобой, {user}."
       },
       "threesome": {
-        "mention_snuggle": "I-I'm not into that stuff {user}!"
+        "mention_snuggle": "Я-я не люблю такие штучки, {user}!"
       },
       "yurifuck": {
-        "mention_snuggle": "W-why do you want to do this with me {user}? I don't know you!"
+        "mention_snuggle": "П-почему со мной, {user}? Я тебя не знаю!"
       }
     }
   }
